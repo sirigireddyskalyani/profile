@@ -10,7 +10,7 @@ const ExperienceCard = () => {
             </div>
             <div className="flex flex-col items-start justify-start">
                 <div className="grid w-full h-full mb-4">
-                    <div className="flex flex-col justify-center items-center mb-4 pt-1rem]">
+                    <div className="flex flex-col justify-center items-center">
                         <div className="m-2 grid grid-rows-1 grid-cols-1 gap2">
                             <MtlBadge id="javascript" type='warning' path={"./icons/javascript.png"} tooltip="Javascript">
                                 Javascript (9+ years)
