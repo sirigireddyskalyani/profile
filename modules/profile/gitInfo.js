@@ -9,11 +9,15 @@ const GitInfo = () => {
             <div className="flex flex-col items-center justify-center p-4">
                 <h2 className="text-2xl md:text-4xl font-MsMadi text-center p-2 border-b mb-2">My Git Repo</h2>
             </div>
+            <div className="flex md:hidden justify-between">
+                <button className="btn btn-sm ml-2 mr-2">❮</button>
+                <button className="btn btn-sm ml-2 mr-2">❯</button>
+            </div>
             <div className="flex flex-col w-full border-opacity-50">
                 <div className="carousel w-full">
                     <div id="slide1" className="carousel-item relative w-full">
                         <div className="w-full h-full">
-                            <div className="m-20 mt-5">
+                            <div className="ml-2 mr-2 mb-20 md:ml-20 md:mr-20">
                                 <div className="card w-full border-2 rounded">
                                     <figure><img src="/bgImages/nodeExressApi.png" className="w-fit" alt="Shoes" /></figure>
                                     <div className="card-body">
@@ -42,7 +46,7 @@ const GitInfo = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <div className="hidden md:flex absolute justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <button className="btn btn-circle">❮</button>
                             <button className="btn btn-circle">❯</button>
                         </div>
