@@ -27,18 +27,16 @@ const GitInfo = () => {
                                             <code>Ex: for a $120 purchase, the customer receives (120-50) x 1 + (120 - 100) x 1 = 90 points</code>
                                         </div>
                                         <div className="card-actions flex flex-col items-center justify-center">
-                                            <div className="flex justify-around">
+                                            <div className="grid grid-rows-1 grid-cols-2 gap-2 md:grid-cols-4">
                                                 <span className="badge">Node.js</span>
                                                 <span className="badge">Express.js</span>
                                                 <span className="badge">Mocha</span>
                                                 <span className="badge">Chai</span>
                                             </div>
-                                            <div>
-                                                <button className="btn btn-link btn-primary">
-                                                    <FontAwesomeIcon className="w-4 h-4" icon={faMobileButton} />
-                                                    GIT @ RewardPoints
-                                                </button>
-                                            </div>
+                                            <button className="btn btn-link btn-primary">
+                                                <FontAwesomeIcon className="w-4 h-4" icon={faMobileButton} />
+                                                GIT @ RewardPoints
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
