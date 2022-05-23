@@ -9,7 +9,7 @@ const ExperienceCard = () => {
                 <h2 className="text-2xl md:text-4xl font-MsMadi text-center p-2 border-b mb-2">My Tech Skillset</h2>
             </div>
             <div className="flex flex-col items-start justify-start p-10 pt-2 pb-0">
-                <div class="grid w-full h-full mb-4">
+                <div className="grid w-full h-full mb-4">
                     <div className="flex flex-col justify-center items-center mb-4 pt-1rem]">
                         <div className="m-2 grid grid-rows-1 grid-cols-1 gap2">
                             <MtlBadge id="javascript" type='warning' path={"./icons/javascript.png"} tooltip="Javascript">
@@ -63,8 +63,8 @@ const ExperienceCard = () => {
                         </div>
                     </div>
                 </div>
-                <div class="divider font-MsMadi text-2xl">My Work Experience</div>
-                <div class="grid h-full">
+                <div className="divider font-MsMadi text-2xl">My Work Experience</div>
+                <div className="grid h-full">
                     <ol className="relative border-l border-gray-200 dark:border-gray-700">
                         {
                             [
