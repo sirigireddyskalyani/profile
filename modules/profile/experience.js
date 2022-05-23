@@ -8,7 +8,7 @@ const ExperienceCard = () => {
             <div className="flex flex-col items-center justify-center pt-4">
                 <h2 className="text-2xl md:text-4xl font-MsMadi text-center p-2 border-b mb-2">My Tech Skillset</h2>
             </div>
-            <div className="flex flex-col items-start justify-start p-10 pt-2 pb-0">
+            <div className="flex flex-col items-start justify-start">
                 <div className="grid w-full h-full mb-4">
                     <div className="flex flex-col justify-center items-center mb-4 pt-1rem]">
                         <div className="m-2 grid grid-rows-1 grid-cols-1 gap2">
@@ -64,7 +64,7 @@ const ExperienceCard = () => {
                     </div>
                 </div>
                 <div className="divider font-MsMadi text-2xl">My Work Experience</div>
-                <div className="grid h-full">
+                <div className="grid w-full h-full p-4">
                     <ol className="relative border-l border-gray-200 dark:border-gray-700">
                         {
                             [
