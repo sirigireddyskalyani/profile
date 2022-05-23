@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import React from 'react';
-import PortalFooter from '../../components/footer/PortalFooter';
+import PortalFooter from './../../components/footer/PortalFooter';
 import BestQuoteCard from './bestQuote';
 import ExperienceCard from './experience';
 import GitInfo from './gitInfo';
