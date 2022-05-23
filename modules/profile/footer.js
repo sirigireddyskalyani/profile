@@ -2,7 +2,7 @@ import { faCopyright } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
-const PortalFooter = () => {
+const FooterCard = () => {
     return (
         <footer className="footer flex flex-col justify-center items-center md:flex-row md:justify-between text-dark p-4">
             <div className="flex justify-center md:justify-start">
@@ -20,4 +20,4 @@ const PortalFooter = () => {
     )
 }
 
-export default PortalFooter;
+export default FooterCard;
