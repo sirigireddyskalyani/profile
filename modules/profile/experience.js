@@ -16,14 +16,28 @@ const ExperienceCard = () => {
                     <MtlBadge id="nodeJS" type='warning' path={"./icons/nodeJs.png"} tooltip="Node.JS">
                         Node.js (2+ years)
                     </MtlBadge>
-                    <MtlBadge id="nextJS" type='warning' path={"./icons/commonJSLogo.png"} tooltip="Next.JS">
+                    <MtlBadge id="nextJS" type='warning' path={"./icons/nextjs.png"} tooltip="Next.JS">
                         Next.JS (3+ years)
                     </MtlBadge>
-                    <MtlBadge id="expressJS" type='warning' path={"./icons/node-js-black.png"} tooltip="Express.JS">
+                    <MtlBadge id="expressJS" type='warning' path={"./icons/expressJs.png"} tooltip="Express.JS">
                         Express.JS (3+ years)
                     </MtlBadge>
                     <MtlBadge id="graphQL" type='warning' path={"./icons/graphql.png"} tooltip="GraphQL">
                         GraphQL (2 years)
+                    </MtlBadge>
+                </div>
+                <div className="m-2 grid grid-rows-1 grid-cols-2 md:grid-cols-4 gap-1 md:gap-4 items-center">
+                    <MtlBadge id="nodeJS" type='warning' path={"./icons/mocha.png"} tooltip="Node.JS">
+                        Mocha (2+ years)
+                    </MtlBadge>
+                    <MtlBadge id="nextJS" type='warning' path={"./icons/chai.png"} tooltip="Next.JS">
+                        Chai (3+ years)
+                    </MtlBadge>
+                    <MtlBadge id="expressJS" type='warning' path={"./icons/JEST.png"} tooltip="Express.JS">
+                        JEST (3+ years)
+                    </MtlBadge>
+                    <MtlBadge id="expressJS" type='warning' path={"./icons/Jasmine.png"} tooltip="Express.JS">
+                        Jasmine (3+ years)
                     </MtlBadge>
                 </div>
                 <div className="m-2 grid grid-rows-2 gap-4 grid-cols-2 md:grid-cols-3">

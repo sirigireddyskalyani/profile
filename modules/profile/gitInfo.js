@@ -30,16 +30,19 @@ const GitInfo = () => {
                                             </ol>
                                             <code>Ex: for a $120 purchase, the customer receives (120-50) x 1 + (120 - 100) x 1 = 90 points</code>
                                         </div>
-                                        <div className="card-actions flex flex-col items-center justify-center">
-                                            <div className="grid grid-rows-1 grid-cols-2 gap-2 md:grid-cols-4">
-                                                <span className="badge">Node.js</span>
-                                                <span className="badge">Express.js</span>
-                                                <span className="badge">Mocha</span>
-                                                <span className="badge">Chai</span>
+                                        <div className="card-actions flex flex-col items-center justify-center bg-white text-white">
+                                            <div className='flex'>
+                                                <span className="badge m-1">Node.js</span>
+                                                <span className="badge m-1">Express.js</span>
                                             </div>
-                                            <button className="btn btn-link btn-primary">
-                                                <FontAwesomeIcon className="w-4 h-4" icon={faMobileButton} />
-                                                GIT @ RewardPoints
+                                            <div className='flex'>
+                                                <span className="badge m-1">mocha</span>
+                                                <span className="badge m-1">chai</span>
+                                                <span className="badge m-1">supertest</span>
+                                                <span className="badge m-1">nyc</span>
+                                            </div>
+                                            <button onClick={() => window.open('https://github.com/sirigireddyskalyani/get-reward-points', '_blank')} className="btn btn-link">
+                                                <img src="./icons/git.png" className='w-6 h-6 m-1' /> Code
                                             </button>
                                         </div>
                                     </div>

@@ -26,7 +26,7 @@ const HeroinCard = () => {
           <p className="font-RobotoSlab break-words text-center md:text-2xl max-w-full md:max-w-screen-md">
             I specialise in creating interactive experiences and functional interfaces using React, Canvas, Atomic Architecture and Design Systems.
           </p>
-          <button className="btn btn-xs btn-danger m-2">
+          <button className="btn btn-xs btn-danger m-2" onClick={() => window.open('/sirigireddysKalyani.pdf', '_blank')}>
             <FontAwesomeIcon className="w-2 h-2 mr-1" icon={faDownload} />
             Resume
           </button>
